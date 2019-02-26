@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Data Collection](data-collection.md)
 
 ## Data Collection
 

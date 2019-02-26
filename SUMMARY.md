@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Data Collection](data-collection.md)
-* [Untitled](untitled.md)
 
 ## Data Collection
 

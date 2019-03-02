@@ -8,7 +8,8 @@ description: >-
 
 ### **Me in 10 seconds**
 
-📊 Data Science Enthusiast. 👨‍💻Software Engineer @[**NIH**](https://twitter.com/NIH).   
+📊 Data Science Enthusiast.   
+👨‍💻Software Engineer @[**NIH**](https://twitter.com/NIH).   
 Previously Programmer Analyst @[**FedEx**](https://twitter.com/FedEx).   
 🎓MS in Computer Science.
 

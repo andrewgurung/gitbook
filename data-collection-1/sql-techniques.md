@@ -14,25 +14,31 @@
 
 #### Create a table
 
-`create table exercise_logs ( id integer primary key autoincrement,  
-type text, minutes integer,  
-calories integer,  
-heart_rate integer);`
+```sql
+create table exercise_logs ( id integer primary key autoincrement,
+type text, minutes integer,
+calories integer,
+heart_rate integer);
+```
 
 #### Insert data into a table
 
-`INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('biking', 60, 100, 110);  
-INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('biking', 45, 120, 100);  
-INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('football', 62, 200, 120);  
-INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('football', 90, 210, 140);  
-INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('swimming', 30, 110, 120);  
-INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('swimming', 40, 150, 130);`
+```sql
+INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('biking', 60, 100, 110);
+INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('biking', 45, 120, 100);
+INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('football', 62, 200, 120);
+INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('football', 90, 210, 140);
+INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('swimming', 30, 110, 120);
+INSERT INTO exercise_logs (type, minutes, calories, heart_rate) VALUES ('swimming', 40, 150, 130);
+```
 
 #### Select statements
 
-`SELECT type, sum(calories) as total_calories  
-FROM exercise_logs   
-GROUP BY type;`
+```sql
+SELECT type, sum(calories) as total_calories
+FROM exercise_logs 
+GROUP BY type;
+```
 
 _type total\_calories  
 biking 220  

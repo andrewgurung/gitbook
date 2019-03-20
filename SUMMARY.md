@@ -11,3 +11,8 @@
 
 * [Sentiment analysis using Twitter](natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
 
+## Computer Science
+
+* [Primer](computer-science/primer/README.md)
+  * [Big O Notation](computer-science/primer/big-o-notation.md)
+

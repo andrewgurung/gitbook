@@ -1,7 +1,7 @@
 ---
 description: >-
-  This is my personal knowledge base where I share my shorthand notes on stuff I
-  have learned in the form of an online Gitbook.
+  This is my personal knowledge base where I share my notes on stuff I have
+  learned in the form of an online Gitbook.
 ---
 
 # Introduction

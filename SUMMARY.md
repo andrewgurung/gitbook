@@ -16,7 +16,13 @@
 * [Primer](computer-science/primer/README.md)
   * [Big O Notation](computer-science/primer/big-o-notation.md)
 
-## Linear Algebra
+## Math
 
-* [Vectors](linear-algebra/vectors.md)
+* [Linear Algebra](math/linear-algebra/README.md)
+  * [Vectors](math/linear-algebra/vectors.md)
+
+## Life
+
+* [Health](life/health/README.md)
+  * [Minimalist Workout Routine](life/health/minimalist-workout-routine.md)
 

@@ -16,19 +16,23 @@
   * [6: Model deployment](data-collection-1/data-collection/6-model-deployment.md)
   * [7: Communication](data-collection-1/data-collection/7-communication.md)
 
-## Natural Language Processing
+## AI Topics
 
-* [Sentiment analysis using Twitter](natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
+* [Natural Language Processing](ai-topics/natural-language-processing/README.md)
+  * [Sentiment analysis using Twitter](ai-topics/natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
 
 ## Computer Science
 
 * [Primer](computer-science/primer/README.md)
   * [Big O Notation](computer-science/primer/big-o-notation.md)
 
-## Math
+## Math for ML
 
 * [Linear Algebra](math/linear-algebra/README.md)
   * [Vectors](math/linear-algebra/vectors.md)
+* [Calculus](math/calculus.md)
+* [Probability](math/probability.md)
+* [Miscellaneous](math/miscellaneous.md)
 
 ## Life
 

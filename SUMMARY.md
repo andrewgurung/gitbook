@@ -4,9 +4,14 @@
 
 ## Data Science
 
-* [Data Collection](data-collection-1/data-collection/README.md)
-  * [Cleaning Text Data](data-collection-1/data-collection/cleaning-text-data.md)
-  * [SQL Techniques](data-collection-1/data-collection/sql-techniques.md)
+* [13 Step Process](data-collection-1/data-collection/README.md)
+  * [1: Import data](data-collection-1/data-collection/1-import-data.md)
+  * [2: Store data](data-collection-1/data-collection/2-store-data.md)
+  * [3: Extract data](data-collection-1/data-collection/3-extract-data/README.md)
+    * [SQL Techniques](data-collection-1/data-collection/3-extract-data/sql-techniques.md)
+  * [4: Organize data](data-collection-1/data-collection/4-organize-data.md)
+  * [5: Tidy Data](data-collection-1/data-collection/5-tidy-data/README.md)
+    * [Cleaning Text Data](data-collection-1/data-collection/5-tidy-data/cleaning-text-data.md)
 * [Data Science for Business](data-collection-1/data-science-for-business.md)
 
 ## Natural Language Processing

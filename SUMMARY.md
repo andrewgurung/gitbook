@@ -2,10 +2,12 @@
 
 * [Introduction](README.md)
 
-## Data Collection
+## Data Science
 
-* [SQL Techniques](data-collection-1/sql-techniques.md)
-* [Cleaning Text Data](data-collection-1/cleaning-text-data.md)
+* [Data Collection](data-collection-1/data-collection/README.md)
+  * [Cleaning Text Data](data-collection-1/data-collection/cleaning-text-data.md)
+  * [SQL Techniques](data-collection-1/data-collection/sql-techniques.md)
+* [Data Science for Business](data-collection-1/data-science-for-business.md)
 
 ## Natural Language Processing
 

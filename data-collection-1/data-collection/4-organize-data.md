@@ -1,2 +1,2 @@
-# 4: Organize data
+# 4: Data Exploration
 

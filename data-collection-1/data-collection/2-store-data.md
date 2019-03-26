@@ -1,2 +1,2 @@
-# 2: Store data
+# 2: Data Acquisition
 

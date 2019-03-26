@@ -4,14 +4,16 @@
 
 ## Data Science
 
-* [13 Step Process](data-collection-1/data-collection/README.md)
-  * [1: Import data](data-collection-1/data-collection/1-import-data.md)
-  * [2: Store data](data-collection-1/data-collection/2-store-data.md)
-  * [3: Extract data](data-collection-1/data-collection/3-extract-data/README.md)
+* [7 Step DS Process](data-collection-1/data-collection/README.md)
+  * [1: Business Requirement](data-collection-1/data-collection/1-import-data.md)
+  * [2: Data Acquisition](data-collection-1/data-collection/2-store-data.md)
+  * [3: Data Processing](data-collection-1/data-collection/3-extract-data/README.md)
     * [SQL Techniques](data-collection-1/data-collection/3-extract-data/sql-techniques.md)
-  * [4: Organize data](data-collection-1/data-collection/4-organize-data.md)
-  * [5: Tidy Data](data-collection-1/data-collection/5-tidy-data/README.md)
-    * [Cleaning Text Data](data-collection-1/data-collection/5-tidy-data/cleaning-text-data.md)
+    * [Cleaning Text Data](data-collection-1/data-collection/3-extract-data/cleaning-text-data.md)
+  * [4: Data Exploration](data-collection-1/data-collection/4-organize-data.md)
+  * [5: Modeling](data-collection-1/data-collection/5-tidy-data.md)
+  * [6: Model deployment](data-collection-1/data-collection/6-model-deployment.md)
+  * [7: Communication](data-collection-1/data-collection/7-communication.md)
 * [Data Science for Business](data-collection-1/data-science-for-business.md)
 
 ## Natural Language Processing

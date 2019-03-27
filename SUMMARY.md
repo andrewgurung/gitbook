@@ -31,7 +31,8 @@
 * [Linear Algebra](math/linear-algebra/README.md)
   * [Vectors](math/linear-algebra/vectors.md)
 * [Calculus](math/calculus.md)
-* [Probability](math/probability.md)
+* [Statistics and Probability](math/probability/README.md)
+  * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous.md)
 
 ## Life

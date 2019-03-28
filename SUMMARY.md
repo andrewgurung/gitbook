@@ -41,4 +41,6 @@
   * [Minimalist Workout Routine](life/health/minimalist-workout-routine.md)
 * [Philosophy](life/philosophy/README.md)
   * [Aristotle's Defense of Private Property](life/philosophy/aristotles-defense-of-private-property.md)
+* [Self-improvement](life/self-improvement/README.md)
+  * [Cal Newport's 5 Productivity tips](life/self-improvement/cal-newports-5-productivity-tips.md)
 

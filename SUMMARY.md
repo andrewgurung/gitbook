@@ -39,4 +39,6 @@
 
 * [Health](life/health/README.md)
   * [Minimalist Workout Routine](life/health/minimalist-workout-routine.md)
+* [Philosophy](life/philosophy/README.md)
+  * [Aristotle's Defense of Private Property](life/philosophy/aristotles-defense-of-private-property.md)
 

@@ -85,3 +85,26 @@ print(vsmulti)
 [ 5. 10. 15.]
 ```
 
+### Vector Dot Product <a id="Vector-Dot-Product"></a>
+
+Vector dot product is a number/value obtained by adding the multiplied elements of two vectors of the same length. Named after the dot\(period\) operator which describes it.
+
+If `a = [a1, a2, a3]` and `b = [b1, b2, b3]` then
+
+**Vector Dot Product**: `c = a . b = (a1*b1 + a2*b2 + a3*b3)`
+
+Note: The dot product is an important tool for calculating vector projections, determining orthogonality, etc.
+
+```python
+# Vector Scalar Multiplication
+a = array([1, 2, 3])
+b = array([1, 2, 3])
+
+dotProduct = a.dot(b)
+print(dotProduct)
+```
+
+```bash
+14
+```
+

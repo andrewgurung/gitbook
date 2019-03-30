@@ -29,7 +29,8 @@
 ## Math for ML
 
 * [Linear Algebra](math/linear-algebra/README.md)
-  * [Vectors](math/linear-algebra/vectors.md)
+  * [Vectors](math/linear-algebra/vectors/README.md)
+    * [Vector Projection](math/linear-algebra/vectors/vector-projection.md)
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)

@@ -1,6 +1,6 @@
 # Vectors
 
-![](../../.gitbook/assets/scalar_vector_matrix.png)
+![](../../../.gitbook/assets/scalar_vector_matrix.png)
 
 ## **Scalars**
 

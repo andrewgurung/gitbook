@@ -29,7 +29,7 @@ $$
 
 Note: Vector Projection is simply a product of multiplying scalar projection with a unit vector u in the same direction as u.  
 **u.v**: vector dot product  
-**\|u\|**: length of **u**
+**\|u\|**: length\(norm\) of **u**
 
 Link: [https://en.m.wikipedia.org/wiki/Vector\_projection](https://www.ck12.org/book/CK-12-Precalculus-Concepts/section/7.5/)
 

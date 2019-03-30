@@ -108,3 +108,14 @@ print(dotProduct)
 14
 ```
 
+#### Alternate method: Vector Dot Product
+
+```python
+import numpy as np
+np.vdot(a,b)
+```
+
+```text
+14
+```
+

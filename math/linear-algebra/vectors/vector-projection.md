@@ -14,7 +14,7 @@ where p: perpendicular, h: hypotenuse, b:base
 Scalar projection is the scalar value of the red line without taking direction into consideration.
 
 $$
-cosθ = ScalarProjection / |v|
+cosθ = \frac{ScalarProjection} {|v|}
 $$
 
 After solving the mathematical equations:

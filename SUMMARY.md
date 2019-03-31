@@ -33,6 +33,7 @@
     * [Vector Projection](math/linear-algebra/vectors/vector-projection.md)
     * [Cosine Similarity](math/linear-algebra/vectors/cosine-similarity.md)
     * [Vector Norms and Orthogonality](math/linear-algebra/vectors/vector-norms-and-orthogonality.md)
+    * [Linear combination and span](math/linear-algebra/vectors/linear-combination-and-span.md)
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)

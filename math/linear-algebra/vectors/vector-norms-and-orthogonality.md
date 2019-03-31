@@ -86,7 +86,3 @@ Links:
 ](https://www.youtube.com/watch?v=ozwodzD5bJM)[Gentle Introduction to Vector Norms in Machine Learning  
 ](https://machinelearningmastery.com/vector-norms-machine-learning/)[From Norm to Orthogonality](https://towardsdatascience.com/from-norm-to-orthogonality-fundamental-mathematics-for-machine-learning-with-intuitive-examples-57bb898e69f2)
 
-$$
-X =\begin{bmatrix}x_1 \\ x_2 \\ x_3 \end{bmatrix}
-$$
-

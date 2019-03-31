@@ -36,7 +36,8 @@
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
-* [Miscellaneous](math/miscellaneous.md)
+* [Miscellaneous](math/miscellaneous/README.md)
+  * [LaTeX commands](math/miscellaneous/latex-commands.md)
 
 ## Life
 

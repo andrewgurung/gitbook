@@ -80,8 +80,39 @@ LMax norm:  3.0
 
 ## Orthogonality
 
-Links:
+**Orthogonal**: Two vectors are **orthogonal** if they are perpendicular to each other and their dot product is zero. **`u . v = 0`**
 
+Proof: **u · v** = \|**u**\| \|**v**\| cos θ \(From Cosine Similarity\)  
+Note: cosine of 90° = 0
+
+**Orthonormal**: Two vectors are **orthonormal** if their dot product is zero and norm/length of each vector is 1.  
+**`u . v = 0 and |u| = 1, |v| = 1`**
+
+In 3-D Euclidean space, using **L2 Norm** to calculate length; we come up with the following equation for **orthonormal** vectors.
+
+$$
+\sqrt{ u_1^2 + u_2^2+u_3^2} = 1 and \sqrt{ v_1^2 + v_2^2+v_3^2} = 1
+$$
+
+**Normal**: A vector is said to be normal to a surface or curve if it is perpendicular to it.
+
+### Finding orthogonality using NumPy
+
+```python
+from numpy import vdot
+from numpy import array
+
+u = array([2, 18])
+v = array([3/2, -1/6])
+dotProduct = vdot(u, v)
+print(dotProduct)
+```
+
+```text
+0.0
+```
+
+Links:  
 [What is a Vector Space? \(Abstract Algebra\)  
 ](https://www.youtube.com/watch?v=ozwodzD5bJM)[Gentle Introduction to Vector Norms in Machine Learning  
 ](https://machinelearningmastery.com/vector-norms-machine-learning/)[From Norm to Orthogonality](https://towardsdatascience.com/from-norm-to-orthogonality-fundamental-mathematics-for-machine-learning-with-intuitive-examples-57bb898e69f2)

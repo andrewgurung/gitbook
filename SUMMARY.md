@@ -30,9 +30,9 @@
 
 * [Linear Algebra](math/linear-algebra/README.md)
   * [Vectors](math/linear-algebra/vectors/README.md)
-    * [Vector Norms and Orthogonality](math/linear-algebra/vectors/vector-norms-and-orthogonality.md)
     * [Vector Projection](math/linear-algebra/vectors/vector-projection.md)
     * [Cosine Similarity](math/linear-algebra/vectors/cosine-similarity.md)
+    * [Vector Norms and Orthogonality](math/linear-algebra/vectors/vector-norms-and-orthogonality.md)
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)

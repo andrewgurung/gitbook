@@ -29,6 +29,7 @@
 ## Math for ML
 
 * [Linear Algebra](math/linear-algebra/README.md)
+  * [Linear algebra explained in four pages](math/linear-algebra/linear-algebra-explained-in-four-pages.md)
   * [Vectors](math/linear-algebra/vectors/README.md)
     * [Vector Projection](math/linear-algebra/vectors/vector-projection.md)
     * [Cosine Similarity](math/linear-algebra/vectors/cosine-similarity.md)

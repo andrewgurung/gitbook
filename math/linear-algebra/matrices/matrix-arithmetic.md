@@ -56,7 +56,7 @@ print(C)
 
 ## Matrix-Scalar Multiplication
 
-A matrix can be multiplied by a scalar represented as`C = A . b` where b is a scalar. Note: use '**\*'** in **Numpy** for matrix multiplication
+A matrix can be multiplied by a scalar represented as**`C = A . b`** where b is a scalar. Note: use '**\*'** in **Numpy** for matrix multiplication
 
 $$
 A=\begin{bmatrix}a_{11} \hspace{0.2cm} a_{12}\hspace{0.2cm}  .. \hspace{0.2cm} a_{1n}
@@ -85,6 +85,40 @@ print(C)
 ```
 
 ## Matrix-Vector Multiplication
+
+A matrix can be multiplied by a vector represented as **`C = A . v`** where v is a vector given it follows the rule of matrix multiplication.  
+Example: A: 3 x _**2**_; v = _**2**_ x 1. Since it follows the rule of matrix multiplication **A'**s column \#2 matches with **v**'s row \#2, it results in matrix **C** of dimension **3 x 1**.
+
+$$
+A=\begin{bmatrix}
+a_{11} \hspace{0.2cm} a_{12}
+\\ a_{21} \hspace{0.2cm} a_{22}
+\\ a_{31} \hspace{0.2cm} a_{32}
+\end{bmatrix},
+v=\begin{bmatrix}
+v_{1}
+\\ v_{2}
+\end{bmatrix}
+\newline
+C=\begin{bmatrix}
+a_{11}  * v_{1} + a_{12} * v_{2}
+\\ a_{21}  * v_{1} +  a_{22} * v_{2}
+\\ a_{31} * v_{1} + a_{32} * v_{2}
+\end{bmatrix}
+$$
+
+```python
+from numpy import array
+from numpy import dot
+A = array([[1, 2], [3, 4], [5, 6]])
+v = array([0.5, 0.5])
+C = dot(A, v)
+print(C)
+```
+
+```text
+[1.5 3.5 5.5]
+```
 
 ## Matrix Multiplication \(Hadamard Product\)
 

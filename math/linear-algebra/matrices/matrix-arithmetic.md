@@ -86,8 +86,17 @@ print(C)
 
 ## Matrix-Vector Multiplication
 
-A matrix can be multiplied by a vector represented as **`C = A . v`** where v is a vector given it follows the rule of matrix multiplication.  
-Example: A: 3 x _**2**_; v = _**2**_ x 1. Since it follows the rule of matrix multiplication **A'**s column \#2 matches with **v**'s row \#2, it results in matrix **C** of dimension **3 x 1**.
+A matrix can be multiplied by a vector represented as **`C = A . v`** where v is a vector given it follows the rule of matrix multiplication.
+
+#### Rule of matrix multiplication
+
+For example, matrix **A** has the dimensions **m** rows and **n** columns and matrix **B** has the dimensions **n** and **k**. The **n** columns in **A** and **n** rows **b** are equal. The result is a new matrix with **m** rows and **k** columns.
+
+$$
+C(m,k) = A(m,n) * B(n,k)
+$$
+
+Example of Matrix-Vector multiplication:
 
 $$
 A=\begin{bmatrix}
@@ -122,7 +131,49 @@ print(C)
 
 ## Matrix Multiplication \(Hadamard Product\)
 
+Two matrices with the same dimension can be simply multiplied element-wise. Also known as Hadamard Product, it is represented with a circle as  **`C = A o B`**
+
+**Note**: Implemented using star operator as in Matrix-Scalar Multiplication
+
+$$
+A=\begin{bmatrix}
+a_{11} \hspace{0.2cm} a_{12}
+\\ a_{21} \hspace{0.2cm} a_{22}
+\\ a_{31} \hspace{0.2cm} a_{32}
+\end{bmatrix},
+B=\begin{bmatrix}
+b_{11} \hspace{0.2cm} b_{12}
+\\ b_{21} \hspace{0.2cm} b_{22}
+\\ b_{31} \hspace{0.2cm} b_{32}
+\end{bmatrix}
+\newline
+C=\begin{bmatrix}
+a_{11}  * b_{11} , a_{12} * b_{12}
+\\ a_{21}  * b_{21} ,  a_{22} * b_{22}
+\\ a_{31} * b_{31} , a_{32} * b_{32}
+\end{bmatrix}
+$$
+
+```python
+from numpy import array
+A = array([[1, 2, 3], [4, 5, 6]])
+B = array([[2, 2, 2], [.5, .5, .5]])
+C = A * B
+print(C)
+```
+
+```text
+[[2.  4.  6. ]
+ [2.  2.5 3. ]]
+```
+
 ## Matrix-Matrix Multiplication \(Dot Product\)
+
+Matrix-Matrix, also called the **matrix dot product** is a complicated multiplication which must follow the **rule of matrix multiplication**. 
+
+This is made clear with the following image:
+
+![Depiction of matrix multiplication](../../../.gitbook/assets/depection-of-matrix-multiplication.png)
 
 
 

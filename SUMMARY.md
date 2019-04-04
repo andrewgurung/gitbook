@@ -39,6 +39,7 @@
   * [Matrices](math/linear-algebra/matrices/README.md)
     * [Matrix Arithmetic](math/linear-algebra/matrices/matrix-arithmetic.md)
     * [Matrix Operations](math/linear-algebra/matrices/matrix-operations.md)
+    * [Functions and Linear Transformations](math/linear-algebra/matrices/functions-and-linear-transformations.md)
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)

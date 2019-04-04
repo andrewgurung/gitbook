@@ -111,7 +111,36 @@ print(B)
 
 ## Rank
 
-**Calculating rank mathematically:**  
+The rank of a matrix is the number of dimensions spanned by all of the vectors within a matrix.
+
+* Rank of 0: All vectors span a point
+* Rank of 1: All vectors span a line
+* Rank of 2: All vectors span a two-dimensional plane.
+
+```python
+from numpy import array
+from numpy.linalg import matrix_rank
+# rank 0
+M0 = array([[0,0],[0,0]])
+mr0 = matrix_rank(M0)
+print(mr0)
+# rank 1
+M1 = array([[1,2],[1,2]])
+mr1 = matrix_rank(M1)
+print(mr1)
+# rank 2
+M2 = array([[1,2],[3,4]])
+mr2 = matrix_rank(M2)
+print(mr2)
+```
+
+```text
+0
+1
+2
+```
+
+**Calculating rank mathematically** \(matrix decomposition method\)**:**  
 [https://www.youtube.com/watch?v=59z6eBynJuw](https://www.youtube.com/watch?v=59z6eBynJuw)
 
 Link:  

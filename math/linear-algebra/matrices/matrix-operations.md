@@ -32,6 +32,38 @@ print(C)
 
 ## Inversion
 
+**Matrix inversion** is a process that finds another matrix that when multiplied with the matrix, results in an **identity matrix** \(1's in main diagonal, zeros everywhere else\) ****represented as **`AB = BA = I`**
+
+**Note:** A square matrix that is not invertible is referred to as **singular**. The matrix inversion operation is not computed directly, but rather the inverted matrix is discovered through forms of matrix decomposition.
+
+$$
+B = A^{-1},  I=\begin{bmatrix}
+1\hspace{0.2cm} 0\hspace{0.2cm}..  \hspace{0.2cm}0
+\\0\hspace{0.2cm} 1\hspace{0.2cm}..  
+\hspace{0.2cm}0
+\\ .. ..
+\\ 0\hspace{0.2cm} 0\hspace{0.2cm}..  \hspace{0.2cm}1
+\end{bmatrix}
+$$
+
+```python
+from numpy import array
+from numpy import dot
+from numpy.linalg import inv
+A = array([[4,3], [3,2]])
+B = inv(A)
+print(B)
+product = dot(A,B)
+print(product)​
+```
+
+```text
+[[-2.  3.]
+ [ 3. -4.]]
+[[1. 0.]
+ [0. 1.]]
+```
+
 ## Trace
 
 ## Determinant

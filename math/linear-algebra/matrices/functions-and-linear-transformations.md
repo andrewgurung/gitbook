@@ -5,8 +5,8 @@
  Functions are mathematical entities that maps/associates input value to outputs.
 
 In the \(ii\) example:  
-R^2: domain  
-R^3: co-domain  
+$$R^2$$: domain   
+$$R^3$$: co-domain  
 Range: subset of co-domain which consists of actual points/value where the function maps to.
 
 $$

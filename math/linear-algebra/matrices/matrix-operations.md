@@ -4,6 +4,32 @@
 
 ## Transpose
 
+A transpose is a _matrix_ which is formed by turning all the rows of a given _matrix_ into columns and vice-versa represented as `A^T`.
+
+$$
+A=\begin{bmatrix}
+a_{11} \hspace{0.2cm} a_{12}
+\\ a_{21} \hspace{0.2cm} a_{22}
+\\ a_{31} \hspace{0.2cm} a_{32}
+\end{bmatrix}, 
+A^T=\begin{bmatrix}
+a_{11} \hspace{0.2cm} a_{21}\hspace{0.2cm} a_{31}
+\\ a_{12} \hspace{0.2cm} a_{22}\hspace{0.2cm} a_{32}
+\end{bmatrix}
+$$
+
+```python
+from numpy import array
+A = array([[1, 2], [3, 4], [5, 6]])
+C = A.T
+print(C)
+```
+
+```text
+[[1 3 5]
+ [2 4 6]]
+```
+
 ## Inversion
 
 ## Trace

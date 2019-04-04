@@ -14,6 +14,9 @@
 
 ## Rank
 
+**Calculating rank mathematically:**  
+[https://www.youtube.com/watch?v=59z6eBynJuw](https://www.youtube.com/watch?v=59z6eBynJuw)
+
 Link:  
 [https://machinelearningmastery.com/matrix-operations-for-machine-learning/](https://machinelearningmastery.com/matrix-operations-for-machine-learning/)
 

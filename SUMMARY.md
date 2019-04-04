@@ -38,6 +38,7 @@
     * [Linear independence and Basis vectors](math/linear-algebra/vectors/linear-independence-and-basis-vectors.md)
   * [Matrices](math/linear-algebra/matrices/README.md)
     * [Matrix Arithmetic](math/linear-algebra/matrices/matrix-arithmetic.md)
+    * [Matrix Operations](math/linear-algebra/matrices/matrix-operations.md)
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)

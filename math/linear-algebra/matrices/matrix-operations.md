@@ -91,7 +91,23 @@ print(B)
 
 ## Determinant
 
+The determinant of a square matrix is a scalar representation of the volume of the matrix represented as **`|A| or det(A)`**
+
+**Note: T**he determinant is the product of all the **eigenvalues** of the matrix. Also, a determinant of **0** indicates that the matrix **cannot** be **inverted**.
+
 ![Calculating determinant of a matrix](../../../.gitbook/assets/determinant.png)
+
+```python
+from numpy import array
+from numpy.linalg import det
+A = array([[2, -3, 1], [2, 0, -1], [1, 4, 5]])
+B = det(A)
+print(B)
+```
+
+```text
+49.000000000000014
+```
 
 ## Rank
 

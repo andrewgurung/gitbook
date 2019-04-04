@@ -66,6 +66,29 @@ print(product)​
 
 ## Trace
 
+A trace of a square matrix is the sum of the values on the main diagonal of the matrix represented as **`tr(A)`**
+
+$$
+A=\begin{bmatrix}
+a_{11} \hspace{0.2cm} a_{12} \hspace{0.2cm} a_{13}
+\\ a_{21} \hspace{0.2cm} a_{22} \hspace{0.2cm} a_{23}
+\\ a_{31} \hspace{0.2cm} a_{32} \hspace{0.2cm} a_{33}
+\end{bmatrix},
+tr(A) = a_{11} + a_{22} + a_{33}
+$$
+
+```python
+from numpy import array
+from numpy import trace
+A = array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+B = trace(A)
+print(B)
+```
+
+```text
+15
+```
+
 ## Determinant
 
 ![Calculating determinant of a matrix](../../../.gitbook/assets/determinant.png)

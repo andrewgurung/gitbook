@@ -169,13 +169,32 @@ print(C)
 
 ## Matrix-Matrix Multiplication \(Dot Product\)
 
-Matrix-Matrix, also called the **matrix dot product** is a complicated multiplication which must follow the **rule of matrix multiplication**. 
+Matrix-Matrix, also called the **matrix dot product** is a complicated multiplication which must follow the **rule of matrix multiplication** represented as **`C = A * B`**. 
 
 This is made clear with the following image:
 
 ![Depiction of matrix multiplication](../../../.gitbook/assets/depection-of-matrix-multiplication.png)
 
+**A: 4 x 2; B: 2 x 3; C = A \* B =&gt; 4 x 3**  
+For calculating:  
+_C12\(marked with red arrow\) = a11\*b12 + a12\*b22  
+C33\(marked with blue arrow\) = a31\*b13 + a32\*b23_
 
+```python
+from numpy import array
+from numpy import dot
+A = array([[1, 2], [3, 4], [5, 6], [7, 8]])
+B = array([[2, 2, 2], [.5, .5, .5]])
+C = dot(A,B)
+print(C)
+```
+
+```text
+[[ 3.  3.  3.]
+ [ 8.  8.  8.]
+ [13. 13. 13.]
+ [18. 18. 18.]]
+```
 
 Link:  
 [Introduction to Matrices and Matrix Arithmetic for Machine Learning](https://machinelearningmastery.com/introduction-matrices-machine-learning/)

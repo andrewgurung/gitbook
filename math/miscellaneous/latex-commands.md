@@ -2,6 +2,8 @@
 
 LaTeX is a programming language that can be used for writing documents.
 
+Tool: [https://mathpix.com/](https://mathpix.com/)
+
 **Square root:** `\sqrt{50}`
 
 $$

@@ -2,8 +2,9 @@
 
 ## Square Matrix
 
-A matrix where the number of rows\(m\) equals to the number of columns\(n\).  
-**Note**: The vector of values along the diagonal of the matrix from the top left to the bottom right is called the main diagonal.
+A matrix where the number of rows\(m\) equals to the number of columns\(n\).
+
+**Main diagonal**: The vector of values along the diagonal of the matrix from the top left to the bottom right. $$(a_{11}, a_{22}, a_{33})$$ 
 
 $$
 Square\hspace{0.1cm}Matrix\hspace{0.1cm}of\hspace{0.1cm}order\hspace{0.1cm}3;\hspace{0.1cm}A=\begin{bmatrix}
@@ -15,7 +16,57 @@ $$
 
 ## Symmetric Matrix
 
+A type of square matrix where the top-right triangle is the same as the bottom-left triangle.  
+**Note:** The axis of symmetry is always the **main diagonal.**
+
+$$
+A=\begin{bmatrix}
+1 \hspace{0.2cm} 2 \hspace{0.2cm} 3\hspace{0.2cm}4\hspace{0.2cm}5
+\\ 2\hspace{0.2cm}1\hspace{0.2cm}2\hspace{0.2cm}3\hspace{0.2cm}4
+\\ 3\hspace{0.2cm}2\hspace{0.2cm}1\hspace{0.2cm}2\hspace{0.2cm}3
+\\ 4\hspace{0.2cm}3\hspace{0.2cm}2\hspace{0.2cm}1\hspace{0.2cm}2
+\\ 5\hspace{0.2cm}4\hspace{0.2cm}3\hspace{0.2cm}2\hspace{0.2cm}1
+\end{bmatrix}, A = A^T
+$$
+
 ## Triangular Matrix
+
+A type of square matrix that has values in the upper-right or lower-left triangle and filled with zeros in the rest.
+
+$$
+Upper Triangular Matrix A=\begin{bmatrix}
+1 \hspace{0.2cm} 2 \hspace{0.2cm} 3
+\\ 0 \hspace{0.2cm} 2\hspace{0.2cm} 3
+\\ 0 \hspace{0.2cm} 0\hspace{0.2cm} 3
+\end{bmatrix},
+Lower Triangular Matrix B=\begin{bmatrix}
+1 \hspace{0.2cm} 0 \hspace{0.2cm} 0
+\\ 1 \hspace{0.2cm} 2\hspace{0.2cm} 0
+\\ 1 \hspace{0.2cm} 2\hspace{0.2cm} 3
+\end{bmatrix}
+$$
+
+```python
+from numpy import array
+from numpy import tril
+from numpy import triu
+
+M = array([[1, 2, 3], [1, 2, 3], [1, 2, 3]])
+upper = triu(M)
+lower = tril(M)
+print(upper)
+print(lower)
+```
+
+```text
+[[1 2 3]
+ [0 2 3]
+ [0 0 3]]
+ 
+ [[1 0 0]
+ [1 2 0]
+ [1 2 3]]
+```
 
 ## Diagonal Matrix
 

@@ -70,6 +70,46 @@ print(lower)
 
 ## Diagonal Matrix
 
+A matrix where values outside the main diagonal have zero value; often represented as **D**.  
+**Note**: A diagonal matrix does not have to be square.
+
+$$
+D=\begin{bmatrix}
+1 \hspace{0.2cm} 0 \hspace{0.2cm} 0
+\\ 0 \hspace{0.2cm} 2\hspace{0.2cm} 0
+\\ 0 \hspace{0.2cm} 0\hspace{0.2cm} 3
+\end{bmatrix},
+D=\begin{bmatrix}
+1 \hspace{0.2cm} 0 \hspace{0.2cm} 0 \hspace{0.2cm} 0 
+\\ 0 \hspace{0.2cm} 2\hspace{0.2cm} 0 \hspace{0.2cm} 0 
+\\ 0 \hspace{0.2cm} 0\hspace{0.2cm} 3 \hspace{0.2cm} 0 
+\\ 0 \hspace{0.2cm} 0\hspace{0.2cm} 0 \hspace{0.2cm} 4 
+\\ 0 \hspace{0.2cm} 0\hspace{0.2cm} 0 \hspace{0.2cm} 0 
+\end{bmatrix}
+$$
+
+```python
+from numpy import array
+from numpy import diag
+M = array([[1, 2, 3], [1, 2, 3], [1, 2, 3]])
+
+# extract diagonal vector
+d = diag(M)
+print(d)
+
+# create diagonal matrix from diagonal vector
+D = diag(d)
+print(D)
+```
+
+```text
+[1 2 3]
+
+[[1 0 0]
+ [0 2 0]
+ [0 0 3]]
+```
+
 ## Identity Matrix
 
 ## Orthogonal Matrix

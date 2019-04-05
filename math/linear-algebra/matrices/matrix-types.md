@@ -112,6 +112,28 @@ print(D)
 
 ## Identity Matrix
 
+A square matrix that does not change a vector when multiplied; often represented as **'I'** or **'In'.**
+
+$$
+I=\begin{bmatrix}
+1 \hspace{0.2cm} 0 \hspace{0.2cm} 0
+\\ 0 \hspace{0.2cm} 1\hspace{0.2cm} 0
+\\ 0 \hspace{0.2cm} 0\hspace{0.2cm} 1
+\end{bmatrix}
+$$
+
+```text
+from numpy import identity
+I = identity(3)
+print(I)
+```
+
+```text
+[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+```
+
 ## Orthogonal Matrix
 
 Link:  

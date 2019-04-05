@@ -40,5 +40,9 @@ $$
 Andrew\hspace{0.2cm}Gurung
 $$
 
+**Mathematical symbols for numbers**: `\mathbb{R}, \mathbb{N}, \mathbb{Z}`
 
+$$
+\mathbb{R} = real \hspace{.1cm}numbers, \mathbb{N}=natural\hspace{.1cm}numbers, \mathbb{Z}= integers
+$$
 

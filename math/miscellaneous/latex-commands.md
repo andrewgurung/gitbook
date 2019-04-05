@@ -46,3 +46,9 @@ $$
 \mathbb{R} = real \hspace{.1cm}numbers, \mathbb{N}=natural\hspace{.1cm}numbers, \mathbb{Z}= integers
 $$
 
+**Vectors:** `\vec{u}, \vec{v}`
+
+$$
+\vec{u}, \vec{v}
+$$
+

@@ -136,6 +136,48 @@ print(I)
 
 ## Orthogonal Matrix
 
+**Recap**: Two **vectors** are orthogonal when their dot product equals zero, called orthonormal.
+
+**Orthogonal matrix** is a square matrix whose columns and rows are orthonormal unit vectors; i.e perpendicular and also have a length/magnitude of 1. It is often denoted as **'Q'.**
+
+$$
+Q^T . Q = Q . Q^T = I  \hspace{0.5cm}where\hspace{0.1cm}Q^T:Transpose \hspace{0.1cm}of\hspace{0.1cm} Q
+\newline
+Q^T = Q^{-1}\hspace{0.5cm}where\hspace{0.1cm}Q^{-1}:Inverse\hspace{0.1cm}of\hspace{0.1cm} Q
+$$
+
+```python
+from numpy import array
+from numpy import dot
+from numpy import identity
+from numpy.linalg import inv
+
+Q = array([[1, 0], [0, -1]])
+transpose = Q.T
+inverse = inv(Q)
+I = identity(2)
+
+# inverse equivalence
+print(transpose)
+print(inverse)
+
+# identity equivalence
+dotproduct = dot(Q,transpose)
+print(dotproduct)
+print(I)​
+```
+
+```text
+[[ 1  0]
+ [ 0 -1]]
+[[ 1.  0.]
+ [-0. -1.]]
+[[1 0]
+ [0 1]]
+[[1. 0.]
+ [0. 1.]]
+```
+
 Link:  
 - [Introduction to Matrix Types in Linear Algebra for Machine Learning](https://machinelearningmastery.com/introduction-to-types-of-matrices-in-linear-algebra/)
 

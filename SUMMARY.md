@@ -44,6 +44,7 @@
     * [Matrix types](math/linear-algebra/matrices/matrix-types.md)
   * [Eigenvalues and Eigenvectors](math/linear-algebra/eigenvalues-and-eigenvectors.md)
   * [Principle Component Analysis \(PCA\)](math/linear-algebra/principle-component-analysis-pca.md)
+  * [Singular-Value Decomposition\(SVD\)](math/linear-algebra/singular-value-decomposition-svd.md)
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)

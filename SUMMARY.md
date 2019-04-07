@@ -43,6 +43,7 @@
     * [Functions and Linear Transformations](math/linear-algebra/matrices/functions-and-linear-transformations.md)
     * [Matrix types](math/linear-algebra/matrices/matrix-types.md)
   * [Eigenvalues and Eigenvectors](math/linear-algebra/eigenvalues-and-eigenvectors.md)
+  * [Principle Component Analysis \(PCA\)](math/linear-algebra/principle-component-analysis-pca.md)
 * [Calculus](math/calculus.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)

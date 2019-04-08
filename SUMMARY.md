@@ -62,4 +62,6 @@
 * [Food and Travel](life/food-and-travel/README.md)
   * [Recipe](life/food-and-travel/recipe/README.md)
     * [Spicy Sesame Noodles](life/food-and-travel/recipe/spicy-sesame-noodles.md)
+* [Art](life/art/README.md)
+  * [Scott Adams: 80% of the rules of good writing](life/art/scott-adams-80-of-the-rules-of-good-writing.md)
 

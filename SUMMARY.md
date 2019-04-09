@@ -42,7 +42,7 @@
     * [Matrix Operations](math/linear-algebra/matrices/matrix-operations.md)
     * [Functions and Linear Transformations](math/linear-algebra/matrices/functions-and-linear-transformations.md)
     * [Matrix types](math/linear-algebra/matrices/matrix-types.md)
-  * [Eigenvalues and Eigenvectors](math/linear-algebra/eigenvalues-and-eigenvectors.md)
+  * [Eigendecomposition, Eigenvectors and Eigenvalues](math/linear-algebra/eigenvalues-and-eigenvectors.md)
   * [Principle Component Analysis \(PCA\)](math/linear-algebra/principle-component-analysis-pca.md)
   * [Singular-Value Decomposition\(SVD\)](math/linear-algebra/singular-value-decomposition-svd.md)
 * [Calculus](math/calculus.md)

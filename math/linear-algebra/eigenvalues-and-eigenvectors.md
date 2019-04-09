@@ -2,6 +2,10 @@
 
 
 
-Link:  
-[What are Eigenvalues and Eigenvectors?](https://www.coursera.org/lecture/linear-algebra-machine-learning/what-are-eigenvalues-and-eigenvectors-oPBNY)
+Link:
+
+* [Video: 3Blue1Brown](https://www.youtube.com/watch?v=PFDu9oVAE-g)
+* [Video: What are Eigenvalues and Eigenvectors?](https://www.coursera.org/lecture/linear-algebra-machine-learning/what-are-eigenvalues-and-eigenvectors-oPBNY)
+* [Computer Vision for dummies: Eigenvalues and Eigenvectors](http://www.visiondummy.com/2014/03/eigenvalues-eigenvectors/)
+* [Machine Learning Mastery](https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/)
 

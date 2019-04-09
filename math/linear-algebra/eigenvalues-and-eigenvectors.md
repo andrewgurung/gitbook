@@ -106,7 +106,36 @@ print(rhs)​
 
 ## Reconstruct a matrix from eigenvectors and eigenvalues
 
+![](../../.gitbook/assets/eigendecomposition.png)
 
+```python
+from numpy import array
+from numpy.linalg import eig
+from numpy import dot
+from numpy.linalg import inv
+from numpy import diag
+
+A = array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+eigenvalues, eigenvectors = eig(A)​
+
+# A = Q . diag(eigenvalues) . Q^-1
+Q = eigenvectors
+diagEigenVals = diag(eigenvalues)
+invQ = inv(Q)
+
+compose = Q.dot(diagEigenVals).dot(invQ)
+print(A)
+print(compose)​
+```
+
+```text
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+[[1. 2. 3.]
+ [4. 5. 6.]
+ [7. 8. 9.]]
+```
 
 Link:
 

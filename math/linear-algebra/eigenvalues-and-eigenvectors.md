@@ -74,6 +74,36 @@ print(eigenvectors)
 
 ## Confirm a vector is an eigenvector
 
+$$
+A . \vec{v} = \lambda . \vec{v}
+$$
+
+```python
+from numpy import array
+from numpy.linalg import eig
+from numpy import dot
+
+A = array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+eigenvalues, eigenvectors = eig(A)
+
+# Verify eigenvector equation for the first eigenvalue and eigenvector
+firstEigenValue = eigenvalues[0]
+firstEigenVector = eigenvectors[:, 0]
+
+# Eigenvector equation
+# A . v = lambda . v
+lhs = dot(A, firstEigenVector)
+rhs = firstEigenValue * firstEigenVector
+
+print(lhs)
+print(rhs)​
+```
+
+```text
+[ -3.73863537  -8.46653421 -13.19443305]
+[ -3.73863537  -8.46653421 -13.19443305]
+```
+
 ## Reconstruct a matrix from eigenvectors and eigenvalues
 
 

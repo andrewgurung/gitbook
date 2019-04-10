@@ -65,4 +65,6 @@
     * [Spicy Sesame Noodles](life/food-and-travel/recipe/spicy-sesame-noodles.md)
 * [Art](life/art/README.md)
   * [Scott Adams: 80% of the rules of good writing](life/art/scott-adams-80-of-the-rules-of-good-writing.md)
+* [Tools](life/tools/README.md)
+  * [Visual Studio Code](life/tools/visual-studio-code.md)
 

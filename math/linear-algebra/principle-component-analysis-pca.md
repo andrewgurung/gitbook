@@ -196,4 +196,5 @@ Link:
 
 * [Principle Component Analysis](https://www.python-course.eu/principal_component_analysis.php)
 * [How to Calculate Principal Component Analysis \(PCA\) from Scratch in Python](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/)
+* [Youtube Video: PCA \(~26mins\)](https://www.youtube.com/watch?v=g-Hb26agBFg)
 

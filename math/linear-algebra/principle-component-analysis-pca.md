@@ -16,7 +16,7 @@ The first principal component of a dataset is the direction along the dataset wi
 
 ## Manually Calculate Principal Component Analysis
 
-Steps:
+**Steps:**
 
 * Get the original matrix
 * Note: Transpose the original matrix\(row x column\) to group columns together for calculation
@@ -119,6 +119,77 @@ Printing projection
 [[-2.82842712  0.        ]
  [ 0.          0.        ]
  [ 2.82842712  0.        ]]
+```
+
+## Principle Component Analysis using scikit-learn library
+
+**PCA** can be calculated using **scikit-learn** library.  
+  
+**Steps:**
+
+* Define a matrix
+* Create the PCA instance with number of components as parameter
+* Fit on data
+* Find eigenvalues and eigenvectors using eigendecomposition
+* Project data Note: In the projection, the value `2.22044605e-16` is very close to 0.
+
+```python
+from numpy import array
+from sklearn.decomposition import PCA
+
+A = array([[1, 2], [3, 4], [5, 6]])
+print('------------------')
+print('Printing A')
+print(A)
+
+# create PCA instance with number of components as parameter
+pca = PCA(2)
+
+# fit on data
+pca.fit(A)
+# access eigenvalues and eigenvectors
+print('------------------')
+print('Printing eigenvectors')
+print(pca.components_)
+
+print('------------------')
+print('Printing eigenvalues')
+print(pca.explained_variance_)
+
+# note: the eigenvector printed in the previous manual calculation was a transpose
+print('------------------')
+print('Printing eigenvalues.transpose')
+print(pca.components_.T)
+
+# project/transform
+P = pca.transform(A)
+print('------------------')
+print('Printing projection')
+print(P)​
+```
+
+```text
+------------------
+Printing A
+[[1 2]
+ [3 4]
+ [5 6]]
+------------------
+Printing eigenvectors
+[[ 0.70710678  0.70710678]
+ [-0.70710678  0.70710678]]
+------------------
+Printing eigenvalues
+[8. 0.]
+------------------
+Printing eigenvalues.transpose
+[[ 0.70710678 -0.70710678]
+ [ 0.70710678  0.70710678]]
+------------------
+Printing projection
+[[-2.82842712e+00 -2.22044605e-16]
+ [ 0.00000000e+00  0.00000000e+00]
+ [ 2.82842712e+00  2.22044605e-16]]
 ```
 
 Link:

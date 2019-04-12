@@ -13,7 +13,7 @@ $$U$$: **m x m** matrix where matrix **U** is also known as **left-singlular vec
 $$\Sigma$$: **m x n** diagonal matrix where the diagonal values are known as **singular values**  
 $$V^T$$: Transpose of an **n x n** matrix where matrix **V** is also **right-singular vectors** of A
 
-## Calculate Singular-Value Decomposition using SciPy
+## Calculate Singular-Value Decomposition using NumPy
 
 ```python
 # Calculate Singular-Value Decomposition Using SciPy
@@ -60,6 +60,83 @@ VT Matrix
 ```
 
 ## Reconstruct Matrix from SVD
+
+**Note**: **svd\(\)** returns a **sigma vector** which needs to be transformed into a `m x n` matrix for multiplication.  
+         - Convert sigma vector into **diagonal matrix** `n x n` using **diag\(\)**  
+         - Create a `m x n` empty/zero **Sigma matrix**  
+         - Populate the **Sigma matrix** with `n x n` diagonal matrix
+
+```python
+from numpy import array
+from numpy import diag
+from numpy import dot
+from numpy import zeros
+from numpy.linalg import svd
+
+A = array([[1, 2], [3, 4], [5, 6]])
+print('-------------------')
+print('Original Matrix')
+print(A)
+
+U, d, VT = svd(A)
+print('-------------------')
+print('2 element Sigma vector')
+print(d)
+
+# Convert Sigma vector into diagonal matrix
+D = diag(d)
+print('-------------------')
+print('Diagonal matrix with dimension 2x2 or nxn')
+print(D)
+
+# Create an m x n Sigma matrix dimension
+Sigma = zeros((A.shape[0], A.shape[1]))
+print('-------------------')
+print('Empty m x n Sigma matrix')
+print(Sigma)
+
+# Populate Sigma matrix with n x n diagonal matrix
+Sigma[:A.shape[1], :A.shape[1]] = D
+print('-------------------')
+print('Sigma matrix m x n')
+print(Sigma)
+
+# Reconstruct original matrix
+O = U.dot(Sigma.dot(VT))
+print('-------------------')
+print('Reconstructed original matrix m x n')
+print(O)
+```
+
+```text
+-------------------
+Original Matrix
+[[1 2]
+ [3 4]
+ [5 6]]
+-------------------
+2 element Sigma vector
+[9.52551809 0.51430058]
+-------------------
+Diagonal matrix with dimension 2x2 or nxn
+[[9.52551809 0.        ]
+ [0.         0.51430058]]
+-------------------
+Empty m x n Sigma matrix
+[[0. 0.]
+ [0. 0.]
+ [0. 0.]]
+-------------------
+Sigma matrix m x n
+[[9.52551809 0.        ]
+ [0.         0.51430058]
+ [0.         0.        ]]
+-------------------
+Reconstructed original matrix m x n
+[[1. 2.]
+ [3. 4.]
+ [5. 6.]]
+```
 
 
 

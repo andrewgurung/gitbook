@@ -5,4 +5,8 @@ An equation will be a **function** if, for any $$x$$ in the domain of the equati
 Link:
 
 * [3Blue1Brown Video: Essence of Calculus \(~17mins\)](https://www.youtube.com/watch?v=WUvTyaaNkzM)
+* [Khan Academy: Introduction to Limits \(~13mins\)](https://www.youtube.com/watch?v=riXcZT2ICjA)
 
+
+
+* 

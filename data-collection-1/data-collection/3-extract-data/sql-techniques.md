@@ -45,6 +45,20 @@ biking 220
 football 410   
 swimming 260_
 
+## Tips
+
+### Coalesce function:
+
+Return the first non-null value in a list
+
+```sql
+SELECT COALESCE(NULL, NULL, NULL, 'Google', NULL, 'Twitter');
+```
+
+```text
+Google
+```
+
 ### Credits
 
 * [Data Lit SQL Techniques](https://www.theschool.ai/courses/data-lit/lessons/sql-techniques-for-hospital-database-management/)

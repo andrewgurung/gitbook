@@ -34,6 +34,8 @@ $$
 
 ![Continuity test](../../.gitbook/assets/continuity.JPG)
 
+### Differentiability
+
 
 
 Link:
@@ -41,4 +43,5 @@ Link:
 * [3Blue1Brown Video: Essence of Calculus \(~17mins\)](https://www.youtube.com/watch?v=WUvTyaaNkzM)
 * [Khan Academy: Introduction to Limits \(~13mins\)](https://www.youtube.com/watch?v=riXcZT2ICjA)
 * [Khan Academy: Continuity Introduction \(~12mins\)](https://www.khanacademy.org/math/in-in-grade-12-ncert/in-in-continuity-differentiability/copy-of-continuity-at-a-point-ab/v/limits-to-define-continuity)
+* [Khan Academy: Differentiability at a point \(~5mins\)](https://www.khanacademy.org/math/in-in-grade-12-ncert/in-in-continuity-differentiability/copy-of-differentiability-ab/v/differentiability-at-a-point-algebraic-is-differentiable)
 

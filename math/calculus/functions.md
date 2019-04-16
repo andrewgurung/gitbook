@@ -10,6 +10,14 @@ Single\hspace{0.1cm}variable\hspace{0.1cm}function:\hspace{0.1cm}f(x) = x^2+2x+1
 Multi\hspace{0.1cm}variable\hspace{0.1cm}function:\hspace{0.1cm}f(x,y)=x^2 +2xy+y^2
 $$
 
+### Limits
+
+A limit tells us the value that a function approaches as that function’s inputs get closer and closer to some number. The idea of a limit is the basis of all calculus.
+
+In the following example, the limit of a function $$g(x)$$ as the input $$x$$approaches 2 is a value 4.
+
+![](../../.gitbook/assets/screen-shot-2019-04-15-at-8.07.25-pm.png)
+
 Link:
 
 * [3Blue1Brown Video: Essence of Calculus \(~17mins\)](https://www.youtube.com/watch?v=WUvTyaaNkzM)

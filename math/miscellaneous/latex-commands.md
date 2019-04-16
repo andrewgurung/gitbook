@@ -52,3 +52,9 @@ $$
 \vec{u}, \vec{v}
 $$
 
+**Limits:** `\lim_{x\to a} f(x)`
+
+$$
+\lim_{x\to a} f(x)
+$$
+

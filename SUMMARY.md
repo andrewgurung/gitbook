@@ -46,7 +46,7 @@
   * [Principle Component Analysis \(PCA\)](math/linear-algebra/principle-component-analysis-pca.md)
   * [Singular-Value Decomposition\(SVD\)](math/linear-algebra/singular-value-decomposition-svd.md)
 * [Calculus](math/calculus/README.md)
-  * [Functions](math/calculus/functions.md)
+  * [Functions, Limits, Continuity and Differentiability](math/calculus/functions.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous/README.md)

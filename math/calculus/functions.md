@@ -1,4 +1,4 @@
-# Functions
+# Functions, Limits, Continuity and Differentiability
 
 An equation will be a **function** if, for any $$x$$ in the domain of the equation \(the domain is all the $$x$$’s that can be plugged into the equation\), the equation will yield exactly one value of $$y$$ when we evaluate the equation at a specific $$x$$.
 
@@ -36,12 +36,23 @@ $$
 
 ### Differentiability
 
+A function is **differentiable** at a point if it has a **derivative** there.  
+Note: A differentiable function must be **continuous**
 
+The function **f** is **differentiable** at **x** if the derivative exists:
+
+$$
+\lim_{h\to 0} \frac{f(x+h) - f(x)}{h}
+$$
+
+#### Test for differentiablity:
+
+![Source: Math.uri.edu](../../.gitbook/assets/differentiability_test.JPG)
 
 Link:
 
 * [3Blue1Brown Video: Essence of Calculus \(~17mins\)](https://www.youtube.com/watch?v=WUvTyaaNkzM)
 * [Khan Academy: Introduction to Limits \(~13mins\)](https://www.youtube.com/watch?v=riXcZT2ICjA)
 * [Khan Academy: Continuity Introduction \(~12mins\)](https://www.khanacademy.org/math/in-in-grade-12-ncert/in-in-continuity-differentiability/copy-of-continuity-at-a-point-ab/v/limits-to-define-continuity)
-* [Khan Academy: Differentiability at a point \(~5mins\)](https://www.khanacademy.org/math/in-in-grade-12-ncert/in-in-continuity-differentiability/copy-of-differentiability-ab/v/differentiability-at-a-point-algebraic-is-differentiable)
+* [Differentiability Lecture PDF](http://www.math.uri.edu/~mcomerford/math141/Fall11/lesson13.pdf)
 

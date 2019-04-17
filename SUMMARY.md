@@ -47,6 +47,7 @@
   * [Singular-Value Decomposition\(SVD\)](math/linear-algebra/singular-value-decomposition-svd.md)
 * [Calculus](math/calculus/README.md)
   * [Functions, Limits, Continuity and Differentiability](math/calculus/functions.md)
+  * [Scalar Derivative](math/calculus/scalar-derivative.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous/README.md)

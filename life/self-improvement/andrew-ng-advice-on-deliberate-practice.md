@@ -1,4 +1,4 @@
-# Andrew Ng advice on deliberate practice
+# Andrew Ng's advice on deliberate practice
 
 From **Andrew Ng** and his answer on **Quora**:
 

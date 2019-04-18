@@ -48,6 +48,7 @@
 * [Calculus](math/calculus/README.md)
   * [Functions, Limits, Continuity and Differentiability](math/calculus/functions.md)
   * [Scalar Derivative and Partial Derivatives](math/calculus/scalar-derivative.md)
+  * [Gradient](math/calculus/gradient.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous/README.md)

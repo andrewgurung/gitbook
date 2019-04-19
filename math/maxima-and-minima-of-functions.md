@@ -27,7 +27,7 @@ The maximum or minimum over the **entire function** is called an "Absolute" or "
 
 ![](../.gitbook/assets/saddle_point.png)
 
-In a smoothly changing function a **maximum** or **minimum** is always where the function **flattens out**  \(except for a **saddle point**\).
+In a smoothly changing function a **maximum** or **minimum** is always where the function **flattens out**  except for a **saddle point \(**A stationary point but not an extremum\).
 
 **Note:** When a function **flattens out**, the **slope** is **zero**. **Derivatives** is helpful to find where the **slope** is **zero**.
 

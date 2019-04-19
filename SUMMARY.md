@@ -50,7 +50,7 @@
   * [Scalar Derivative and Partial Derivatives](math/calculus/scalar-derivative.md)
   * [Gradient](math/calculus/gradient.md)
   * [Matrix Calculus](math/calculus/matrix-calculus.md)
-* [Maxima and Minima of Functions](math/maxima-and-minima-of-functions.md)
+* [Maxima and Minima using Derivatives](math/maxima-and-minima-of-functions.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous/README.md)

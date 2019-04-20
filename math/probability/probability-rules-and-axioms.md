@@ -1,5 +1,7 @@
 # Probability Rules and Axioms
 
+**Probability** is a way to **quantify the uncertainty** that arises from conducting experiments using a random sample from the population of interest.  
+  
 **Probability** of an event happening =  \(Number of ways it can happen\) / \(Total number of outcomes\)
 
 **Example:** _the chances of rolling a '3' with a die_  
@@ -24,11 +26,16 @@ Run 100 **Experiments**, and find how many **Events** you observe.
 
 ## Probability Rules
 
+**Probability Rule One:** For any event A, 0 ≤ P\(A\) ≤ 1  
+**Probability Rule Two:** The sum of the probabilities of all possible outcomes is 1.  
+**Probability Rule Three:** P\(not A\) = 1 – P\(A\)  
+**Probability Rule Four:** If A and B are disjoint events, then P\(A or B\) = P\(A\) + P\(B\)
+
 ## Probability Axioms
 
-
-
-
+**Axiom One:** The probability of an event is a non-negative real number that is greater than or equal to 0.  
+**Axiom Two:** The probability of the entire sample space is one\(no events exist outside of the sample space\)  
+**Axiom Three:**  If two events A and B are **mutually exclusive**, then the probability of either A or B \[i.e P\(A U B\)\] = P\(A\) + P\(B\)
 
 Link:  
 - MathsIsFun: [Probability](https://www.mathsisfun.com/data/probability.html)  

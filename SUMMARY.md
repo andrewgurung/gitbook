@@ -55,6 +55,7 @@
 * [Statistics and Probability](math/probability/README.md)
   * [Probability Rules and Axioms](math/probability/probability-rules-and-axioms.md)
   * [Types of Events](math/probability/types-of-events.md)
+  * [Frequentist vs Bayesian View](math/probability/frequentist-vs-bayesian-view.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous/README.md)
   * [LaTeX commands](math/miscellaneous/latex-commands.md)

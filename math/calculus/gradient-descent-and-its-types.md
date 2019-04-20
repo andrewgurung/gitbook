@@ -24,13 +24,37 @@ The goal is to continue to try different values for the coefficients, evaluate t
 
 ## 3 Types of Gradient Descent
 
-### Stochastic Gradient Descent
+### Stochastic Gradient Descent \(SGD\)
+
+It is a variation of the gradient descent algorithm that:
+
+* calculates the error for each example in the training dataset
+* and updates the model immediately for each example
+
+The frequent updates immediately give an insight into the performance of the model and the rate of improvement. 
+
+But updating the model so frequently is more computationally expensive and takes significantly longer to train models on large dataset.
 
 ### Batch Gradient Descent
 
+It is a variation of the gradient descent algorithm that:
+
+* calculates the error for each example in the training dataset
+* but only updates the model after all training examples have been evaluated
+
+**Note:** One cycle through the entire training dataset is called a training epoch.
+
+Fewer updates to the model means this variant of gradient descent is more computationally efficient than stochastic gradient descent. Model updates, and in turn training speed, may become very slow for large datasets.
+
 ### Mini-Batch Gradient Descent
 
+It is a variation of the gradient descent algorithm that:
 
+* calculates the error by splitting the training dataset into small batches
+* and update model coefficients after each batch
+* Most common implementation of gradient descent since it finds a balance between the other two variations of gradient descents and avoids local minima
+
+Mini-batch requires the configuration of an additional “mini-batch size” hyperparameter for the learning algorithm.
 
 Link:  
 - MachineLearningMastery: [Gradient Descent for ML](https://machinelearningmastery.com/gradient-descent-for-machine-learning/)  

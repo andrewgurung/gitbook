@@ -1,5 +1,35 @@
 # Gradient Descent and its types
 
+**Gradient descent** is an optimization algorithm often used for finding the weights or coefficients of machine learning algorithms that minimize the error of the model. 
+
+The goal is to continue to try different values for the coefficients, evaluate their model error and select new coefficients that have a slightly better \(lower\) error moving down along a gradient or slope or errors. Hence the name "**gradient descent**".
+
+### Gradient Descent Procedure
+
+**Step 1:** Start off with some random initial values for the coefficient\(s\) of the function.  
+                               **coefficient = 0.0**
+
+**Step 2:** Calculate the cost of the coefficient\(s\)  
+                               **cost = f\(coefficient\)**  
+                                           or  
+                      **cost = evaluate\(f\(coefficient\)\)**
+
+**Step 3:** Calculate the derivative of the cost. Derivatives gives the slope of the function which helps to determine the direction \(sign\) to move the coefficient values in order to get to a lower cost in the next iteration.  
+                              **delta = derivative\(cost\)**  
+  
+**Step 4:** From the derivative, we know which direction is downhill. A learning rate parameter \(alpha\) must be specified that controls how much the coefficients can change on each update.  
+                     **coefficient = coefficient – \(alpha \* delta\)**
+
+**Step 5:** **Repeat** until the cost of the coefficient\(s\) is **0.0** or close to **zero**.
+
+## 3 Types of Gradient Descent
+
+### Stochastic Gradient Descent
+
+### Batch Gradient Descent
+
+### Mini-Batch Gradient Descent
+
 
 
 Link:  

@@ -51,6 +51,7 @@
   * [Gradient](math/calculus/gradient.md)
   * [Matrix Calculus](math/calculus/matrix-calculus.md)
   * [Maxima and Minima using Derivatives](math/calculus/maxima-and-minima-of-functions.md)
+  * [Gradient Descent and its types](math/calculus/gradient-descent-and-its-types.md)
 * [Statistics and Probability](math/probability/README.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous/README.md)

@@ -21,6 +21,34 @@ A **variable** is a quantity whose value changes. If the value is a numerical ou
 
 ## Expectation and Variance
 
+### **Expectation**
+
+* Describes the **average value\(mean\)** of X, written as **E\(X\) or** $$\mu$$
+* $$E(X) = \Sigma  xP(x) $$ for discrete random variables
+
+_**What is the expected value when we roll a fair die?**_
+
+* There are six possible outcomes: 1, 2, 3, 4, 5, 6. 
+* Each of these has a probability of 1/6 of occurring. Let X represent the outcome of the experiment.
+* Therefore P\(1\) = 1/6 \(the probability that you throw a 1 is 1/6\)  
+  P\(2\) = 1/6   
+  P\(3\) = 1/6  
+  P\(4\) = 1/6   
+  P\(5\) = 1/6  
+  P\(6\) = 1/6
+
+  E\(X\) = 1×P\(1\) + 2×P\(2\) + 3×P\(3\) + 4×P\(4\) + 5×P\(5\) + 6×P\(6\) =&gt; 1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6 =&gt; 7/2 =&gt; 3.5
+
+* Expectation is 3.5
+
+### Variance
+
+* Describes the **spread** \(amount of variability\) around the expectation, written as Var\(X\)
+* \*\*\*\*$$Var(X) = E[ (X – \mu )^2 ] = E(X^2) -\mu ^2 $$ ****
+  * $$\mu : Expectation/mean$$
+  * $$E(X^2): \Sigma  x^2P(x) $$
+* **Note: Standard deviation** $$\sigma$$ is the square root of **variance**
+
 ## Joint, Marginal, and Conditional Distributions
 
 **Links:**  

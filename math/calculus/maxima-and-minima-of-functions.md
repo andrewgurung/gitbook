@@ -58,8 +58,25 @@ In a smoothly changing function a **maximum** or **minimum** is always where the
    $$ f''(x) = 30(\frac{1}{3}) + 4 = 14$$  
    which is greater than 0, so local maximum is at $$x = \frac{1}{3}$$
 
+## Concavity
+
+Taking the derivative f'\(x\) of a function f\(x\) gives the slope.
+
+* When the slope continually **increases**, the function is **concave upward**.
+* When the slope continually **decreases**, the function is **concave downward**.
+
+Using the **second derivative** f''\(x\):
+
+* When the second derivative is **positive**, the function is **concave upward**.
+* When the second derivative is **negative**, the function is **concave downward**.
+
+![](../../.gitbook/assets/concavity.JPG)
+
+![](../../.gitbook/assets/convex_concave.JPG)
+
 Link:  
 - [MathsIsFun: Maxima and Minima of Functions](https://www.mathsisfun.com/algebra/functions-maxima-minima.html)  
 - [MathsIsFun: Finding Maxima and Minima using Derivatives](https://www.mathsisfun.com/calculus/maxima-minima.html)  
-- KhanAcademy: [Maxima, Minima and Saddle Points](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/maximums-minimums-and-saddle-points)
+- KhanAcademy: [Maxima, Minima and Saddle Points](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/maximums-minimums-and-saddle-points)  
+- KhanAcademy: [Concavity](https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-6a/v/concavity-concave-upwards-and-concave-downwards-intervals)
 

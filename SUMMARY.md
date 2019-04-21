@@ -60,7 +60,6 @@
   * [Random Variables](math/probability/random-variables.md)
   * [MLE, MAP, and Naive Bayes](math/probability/mle-map-and-naive-bayes.md)
   * [Probability Distributions](math/probability/probability-distributions.md)
-  * [Conjugate Pair](math/probability/conjugate-pair.md)
   * [P-Value and hypothesis test](math/probability/p-value-and-hypothesis-test.md)
 * [Miscellaneous](math/miscellaneous/README.md)
   * [LaTeX commands](math/miscellaneous/latex-commands.md)

@@ -13,6 +13,9 @@ $$
 * P\(x\|c\): The **likelihood** which is the probability of predictor given class
 * P\(x\): is the **prior probability** of predictor
 
+**Conjugate prior**  
+The prior P\(c\) is said to be conjugate to posterior P\(x\|c\), if both P\(c\) and P\(x\|c\) lies in the same family of distribution\(e.g normal distribution\) 
+
 ### Naive Bayes
 
 **Classification** technique based on **Bayes’ Theorem** with an assumption of independence among predictors. It is called _**naive** Bayes_ or _**idiot** Bayes_ because it simplifies the calculation by assuming a particular feature in a class is unrelated to the presence of any other features.
@@ -56,6 +59,8 @@ MLE = max(P(x|c))
 $$
 
 Note: **MLE = MAP** if the prior distribution we were assuming was a constant.
+
+
 
 Link:  
 - [https://machinelearningmastery.com/naive-bayes-for-machine-learning/](https://machinelearningmastery.com/naive-bayes-for-machine-learning/)  

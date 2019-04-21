@@ -28,6 +28,8 @@ $$
 P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^{-(x-\mu)^2/2\sigma^2}
 $$
 
+**Note:** The **Central Limit Theorem** states that as the size of the sample increases, the distribution of the mean across multiple samples will approximate a **Gaussian distribution**. Note that the each trial must be independent.
+
 ### Bernoulli Distribution
 
  A **Bernoulli distribution** has only two possible outcomes, namely 1 \(success\) and 0 \(failure\), and a **single trial**. 

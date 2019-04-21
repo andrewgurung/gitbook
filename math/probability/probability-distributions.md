@@ -50,7 +50,13 @@ The binomial distribution has **two** parameters - the probability of success an
 
 ### Chi-Squared Distribution
 
- The Chi Square $${\chi}^2$$ distribution is the distribution of the sum of squared standard normal deviates.
+ The Chi Square $${\chi}^2$$ distribution is the distribution of the sum of squared standard normal deviates. 
+
+The chi-square independence test is a procedure for testing if two categorical variables are related.
+
+$$
+\chi^2 = \Sigma {\frac{(Observed-Expected)^2}{Expected}}
+$$
 
 **Characteristics:**
 

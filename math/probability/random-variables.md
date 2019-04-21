@@ -49,12 +49,34 @@ _**What is the expected value when we roll a fair die?**_
   * $$E(X^2): \Sigma  x^2P(x) $$
 * **Note: Standard deviation** $$\sigma$$ is the square root of **variance**
 
-## Joint, Marginal, and Conditional Distributions
+## Joint, Marginal, and Conditional Probabilities
+
+### Marginal probability
+
+* The probability of an event occurring
+* **Formula**: $$P(A)$$
+* Example:  the probability that a card drawn is red \(p\(red\) = 0.5\)
+
+### Condititional probability
+
+* The probability of event A occurring, given that event B occurs or is true
+* **Formula**:  $$P(A|B)=\frac{P(A\cap B)}{P(B)}$$ 
+  * Note: $$P(A\cap B)$$ can be written as $$P(AB)$$
+* Example:  Given that you drew a red card \(26 cards\), what’s the probability that it’s a four \(2 cards\). \(P\(four\|red\)\)=2/26=1/13
+
+### Joint probability
+
+* The probability of event A **and** event B occurring
+* **Formula**: 
+  * $$P(A\cap B) = P(A|B) P(B)$$ 
+  * $$P(A\cap B) = P(B|A) P(A)$$
+* Example:  the probability that a card is a four and red =p\(four and red\) = 2/52=1/26
 
 **Links:**  
 - [http://www.henry.k12.ga.us/ugh/apstat/chapternotes/7supplement.html](http://www.henry.k12.ga.us/ugh/apstat/chapternotes/7supplement.html)  
 - [https://revisionmaths.com/advanced-level-maths-revision/statistics/expectation-and-variance](https://revisionmaths.com/advanced-level-maths-revision/statistics/expectation-and-variance)  
 - [http://www.statisticalengineering.com/joint\_marginal\_conditional.htm](http://www.statisticalengineering.com/joint_marginal_conditional.htm)  
+- [https://sites.nicholas.duke.edu/statsreview/jmc/](https://sites.nicholas.duke.edu/statsreview/jmc/)  
 ****
 
 \*\*\*\*

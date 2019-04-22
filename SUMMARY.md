@@ -80,6 +80,7 @@
     * [Hiking](life/food-and-travel/travel/hiking.md)
 * [Art](life/art/README.md)
   * [Scott Adams: 80% of the rules of good writing](life/art/scott-adams-80-of-the-rules-of-good-writing.md)
+  * [Learn Blues Guitar](life/art/learn-blues-guitar.md)
 * [Tools](life/tools/README.md)
   * [Software](life/tools/software/README.md)
     * [Docker](life/tools/software/docker.md)

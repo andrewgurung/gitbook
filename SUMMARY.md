@@ -20,7 +20,8 @@
 
 * [Natural Language Processing](ai-topics/natural-language-processing/README.md)
   * [Sentiment analysis using Twitter](ai-topics/natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
-* [MLCourse.ai](ai-topics/mlcourse.ai.md)
+* [MLCourse.ai](ai-topics/mlcourse.ai/README.md)
+  * [Exploratory data analysis with Pandas](ai-topics/mlcourse.ai/exploratory-data-analysis-with-pandas.md)
 
 ## Computer Science
 

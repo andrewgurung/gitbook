@@ -22,6 +22,7 @@
   * [Sentiment analysis using Twitter](ai-topics/natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
 * [MLCourse.ai](ai-topics/mlcourse.ai/README.md)
   * [Exploratory data analysis with Pandas](ai-topics/mlcourse.ai/exploratory-data-analysis-with-pandas.md)
+  * [Visual data analysis in Python](ai-topics/mlcourse.ai/visual-data-analysis-in-python.md)
 
 ## Computer Science
 

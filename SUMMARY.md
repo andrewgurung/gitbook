@@ -89,4 +89,5 @@
   * [Software](life/tools/software/README.md)
     * [Docker](life/tools/software/docker.md)
     * [Visual Studio Code](life/tools/software/visual-studio-code.md)
+    * [Terminal](life/tools/software/terminal.md)
 

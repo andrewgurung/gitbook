@@ -23,6 +23,7 @@
 * [MLCourse.ai](ai-topics/mlcourse.ai/README.md)
   * [Exploratory data analysis with Pandas](ai-topics/mlcourse.ai/exploratory-data-analysis-with-pandas.md)
   * [Visual data analysis in Python](ai-topics/mlcourse.ai/visual-data-analysis-in-python.md)
+  * [Overview of Seaborn, Matplotlib and Plotly libraries](ai-topics/mlcourse.ai/overview-of-seaborn-matplotlib-and-plotly-libraries.md)
 
 ## Computer Science
 

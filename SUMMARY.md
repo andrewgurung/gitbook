@@ -24,6 +24,7 @@
   * [Exploratory data analysis with Pandas](ai-topics/mlcourse.ai/exploratory-data-analysis-with-pandas.md)
   * [Visual data analysis in Python](ai-topics/mlcourse.ai/visual-data-analysis-in-python.md)
   * [Overview of Seaborn, Matplotlib and Plotly libraries](ai-topics/mlcourse.ai/overview-of-seaborn-matplotlib-and-plotly-libraries.md)
+  * [Classification, Decision Trees and k Nearest Neighbors](ai-topics/mlcourse.ai/classification-decision-trees-and-k-nearest-neighbors.md)
 
 ## Computer Science
 

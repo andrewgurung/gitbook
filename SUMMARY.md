@@ -92,4 +92,6 @@
     * [Docker](life/tools/software/docker.md)
     * [Visual Studio Code](life/tools/software/visual-studio-code.md)
     * [Terminal](life/tools/software/terminal.md)
+  * [Life Hacks](life/tools/life-hacks/README.md)
+    * [DIY Deck Cleaner](life/tools/life-hacks/diy-deck-cleaner.md)
 

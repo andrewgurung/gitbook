@@ -10,7 +10,7 @@ My Git Repo: [https://github.com/andrewgurung/mlcourse](https://github.com/andre
 * Topic 2. Part 1. [Visual data analysis in Python](visual-data-analysis-in-python.md)
 * Topic 2. Part 2.[ Overview of Seaborn, Matplotlib and Plotly libraries](overview-of-seaborn-matplotlib-and-plotly-libraries.md)
 * Topic 3. [Classification, Decision Trees and k Nearest Neighbors](classification-decision-trees-and-k-nearest-neighbors.md)
-* Topic 4. Linear Classification and Regression. Part 1. Ordinary Least Squares
+* Topic 4. [Linear Classification and Regression. Part 1. Ordinary Least Squares](linear-regression.md)
 * Topic 4. Linear Classification and Regression. Part 2. Logistic Regression
 * Topic 4. Linear Classification and Regression. Part 3. Regularization
 * Topic 4. Linear Classification and Regression. Part 4. Pros and Cons

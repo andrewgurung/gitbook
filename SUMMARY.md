@@ -25,6 +25,7 @@
   * [Visual data analysis in Python](ai-topics/mlcourse.ai/visual-data-analysis-in-python.md)
   * [Overview of Seaborn, Matplotlib and Plotly libraries](ai-topics/mlcourse.ai/overview-of-seaborn-matplotlib-and-plotly-libraries.md)
   * [Classification, Decision Trees and k Nearest Neighbors](ai-topics/mlcourse.ai/classification-decision-trees-and-k-nearest-neighbors.md)
+  * [Linear Regression](ai-topics/mlcourse.ai/linear-regression.md)
 
 ## Computer Science
 

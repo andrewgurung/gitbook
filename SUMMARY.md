@@ -80,6 +80,7 @@
 * [Self-improvement](life/self-improvement/README.md)
   * [Cal Newport's 5 Productivity tips](life/self-improvement/cal-newports-5-productivity-tips.md)
   * [Andrew Ng's advice on deliberate practice](life/self-improvement/andrew-ng-advice-on-deliberate-practice.md)
+  * [Atomic Habits](life/self-improvement/atomic-habits.md)
 * [Food and Travel](life/food-and-travel/README.md)
   * [2019 Guide to Pesticides in Produce](life/food-and-travel/2019-guide-to-pesticides-in-produce.md)
   * [Recipe](life/food-and-travel/recipe/README.md)

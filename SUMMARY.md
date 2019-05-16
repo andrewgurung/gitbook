@@ -21,6 +21,7 @@
 * [Natural Language Processing](ai-topics/natural-language-processing/README.md)
   * [Sentiment analysis using Twitter](ai-topics/natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
 * [MLCourse.ai](ai-topics/mlcourse.ai/README.md)
+  * [Terminology](ai-topics/mlcourse.ai/terminology.md)
   * [Exploratory data analysis with Pandas](ai-topics/mlcourse.ai/exploratory-data-analysis-with-pandas.md)
   * [Visual data analysis in Python](ai-topics/mlcourse.ai/visual-data-analysis-in-python.md)
   * [Overview of Seaborn, Matplotlib and Plotly libraries](ai-topics/mlcourse.ai/overview-of-seaborn-matplotlib-and-plotly-libraries.md)

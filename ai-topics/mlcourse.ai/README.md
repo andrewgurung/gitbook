@@ -27,3 +27,5 @@ My Git Repo: [https://github.com/andrewgurung/mlcourse](https://github.com/andre
 
 ### Assignments/Projects
 
+* Assignment \#1: [Exploratory Data Analysis w/ UCI Adult Data Set](https://nbviewer.jupyter.org/github/andrewgurung/mlcourse/blob/master/assignment/assignment01_pandas_uci_adult.ipynb)
+

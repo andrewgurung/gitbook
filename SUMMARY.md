@@ -52,6 +52,7 @@
   * [Eigendecomposition, Eigenvectors and Eigenvalues](math-for-ml/linear-algebra/eigenvalues-and-eigenvectors.md)
   * [Principle Component Analysis \(PCA\)](math-for-ml/linear-algebra/principle-component-analysis-pca.md)
   * [Singular-Value Decomposition\(SVD\)](math-for-ml/linear-algebra/singular-value-decomposition-svd.md)
+  * [Linear Algebra: Deep Learning Book](math-for-ml/linear-algebra/linear-algebra-deep-learning-book.md)
 * [Calculus](math-for-ml/calculus/README.md)
   * [Functions, Limits, Continuity and Differentiability](math-for-ml/calculus/functions.md)
   * [Scalar Derivative and Partial Derivatives](math-for-ml/calculus/scalar-derivative.md)

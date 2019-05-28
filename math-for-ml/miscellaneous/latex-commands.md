@@ -34,3 +34,5 @@ $$
 
 **Gradient Sign:** `\nabla`$$\nabla$$ 
 
+**Belongs to:** `\in`$$\in$$ 
+

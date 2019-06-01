@@ -1,4 +1,4 @@
-# Data Science for Business
+# 1: Business Requirement
 
 Apart from learning technical skills like math, stats, computer science, machine learning algorithms, you need to have some business training to solve real business problems.
 

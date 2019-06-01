@@ -5,8 +5,7 @@
 ## Data Science
 
 * [7 Step DS Process](data-science/data-collection/README.md)
-  * [1: Business Requirement](data-science/data-collection/1-import-data/README.md)
-    * [Data Science for Business](data-science/data-collection/1-import-data/data-science-for-business.md)
+  * [1: Business Requirement](data-science/data-collection/1-import-data.md)
   * [2: Data Acquisition](data-science/data-collection/2-store-data.md)
   * [3: Data Processing](data-science/data-collection/3-extract-data/README.md)
     * [SQL Techniques](data-science/data-collection/3-extract-data/sql-techniques.md)

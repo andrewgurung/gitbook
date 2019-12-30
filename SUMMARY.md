@@ -68,6 +68,7 @@
 * [Health](life/health/README.md)
   * [Minimalist Workout Routine](life/health/minimalist-workout-routine.md)
   * [Reddit FAQ on Nootropics](life/health/reddit-faq-on-nootropics.md)
+  * [Hiking/Biking Resources](life/health/hiking-biking-resources.md)
 * [Philosophy](life/philosophy/README.md)
   * [Aristotle's Defense of Private Property](life/philosophy/aristotles-defense-of-private-property.md)
 * [Self-improvement](life/self-improvement/README.md)

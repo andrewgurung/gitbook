@@ -4,6 +4,41 @@
 
 ## Data Science
 
+* [Natural Language Processing](data-science/natural-language-processing/README.md)
+  * [Sentiment analysis using Twitter](data-science/natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
+* [Linear Algebra](data-science/linear-algebra/README.md)
+  * [Linear algebra explained in four pages](data-science/linear-algebra/linear-algebra-explained-in-four-pages.md)
+  * [Vectors](data-science/linear-algebra/vectors/README.md)
+    * [Vector Basics](data-science/linear-algebra/vectors/vector-basics.md)
+    * [Vector Projection](data-science/linear-algebra/vectors/vector-projection.md)
+    * [Cosine Similarity](data-science/linear-algebra/vectors/cosine-similarity.md)
+    * [Vector Norms and Orthogonality](data-science/linear-algebra/vectors/vector-norms-and-orthogonality.md)
+    * [Linear combination and span](data-science/linear-algebra/vectors/linear-combination-and-span.md)
+    * [Linear independence and Basis vectors](data-science/linear-algebra/vectors/linear-independence-and-basis-vectors.md)
+  * [Matrices](data-science/linear-algebra/matrices/README.md)
+    * [Matrix Arithmetic](data-science/linear-algebra/matrices/matrix-arithmetic.md)
+    * [Matrix Operations](data-science/linear-algebra/matrices/matrix-operations.md)
+    * [Functions and Linear Transformations](data-science/linear-algebra/matrices/functions-and-linear-transformations.md)
+    * [Matrix types](data-science/linear-algebra/matrices/matrix-types.md)
+  * [Eigendecomposition, Eigenvectors and Eigenvalues](data-science/linear-algebra/eigenvalues-and-eigenvectors.md)
+  * [Principle Component Analysis \(PCA\)](data-science/linear-algebra/principle-component-analysis-pca.md)
+  * [Singular-Value Decomposition\(SVD\)](data-science/linear-algebra/singular-value-decomposition-svd.md)
+  * [Linear Algebra: Deep Learning Book](data-science/linear-algebra/linear-algebra-deep-learning-book.md)
+* [Calculus](data-science/calculus/README.md)
+  * [Functions, Limits, Continuity and Differentiability](data-science/calculus/functions.md)
+  * [Scalar Derivative and Partial Derivatives](data-science/calculus/scalar-derivative.md)
+  * [Gradient](data-science/calculus/gradient.md)
+  * [Matrix Calculus](data-science/calculus/matrix-calculus.md)
+  * [Maxima and Minima using Derivatives](data-science/calculus/maxima-and-minima-of-functions.md)
+  * [Gradient Descent and its types](data-science/calculus/gradient-descent-and-its-types.md)
+* [Statistics and Probability](data-science/probability/README.md)
+  * [Probability Rules and Axioms](data-science/probability/probability-rules-and-axioms.md)
+  * [Types of Events](data-science/probability/types-of-events.md)
+  * [Frequentist vs Bayesian View](data-science/probability/frequentist-vs-bayesian-view.md)
+  * [Random Variables](data-science/probability/random-variables.md)
+  * [MLE, MAP, and Naive Bayes](data-science/probability/mle-map-and-naive-bayes.md)
+  * [Probability Distributions](data-science/probability/probability-distributions.md)
+  * [P-Value and hypothesis test](data-science/probability/p-value-and-hypothesis-test.md)
 * [7 Step DS Process](data-science/data-collection/README.md)
   * [1: Business Requirement](data-science/data-collection/1-import-data.md)
   * [2: Data Acquisition](data-science/data-collection/2-store-data.md)
@@ -14,54 +49,13 @@
   * [5: Modeling](data-science/data-collection/5-tidy-data.md)
   * [6: Model deployment](data-science/data-collection/6-model-deployment.md)
   * [7: Communication](data-science/data-collection/7-communication.md)
-
-## AI Topics
-
-* [Natural Language Processing](ai-topics/natural-language-processing/README.md)
-  * [Sentiment analysis using Twitter](ai-topics/natural-language-processing/sentiment-analysis-using-twitter-api-and-vader-python-framework.md)
+* [Miscellaneous](data-science/miscellaneous/README.md)
+  * [LaTeX commands](data-science/miscellaneous/latex-commands.md)
 
 ## Computer Science
 
 * [Primer](computer-science/primer/README.md)
   * [Big O Notation](computer-science/primer/big-o-notation.md)
-
-## Math for ML
-
-* [Linear Algebra](math-for-ml/linear-algebra/README.md)
-  * [Linear algebra explained in four pages](math-for-ml/linear-algebra/linear-algebra-explained-in-four-pages.md)
-  * [Vectors](math-for-ml/linear-algebra/vectors/README.md)
-    * [Vector Basics](math-for-ml/linear-algebra/vectors/vector-basics.md)
-    * [Vector Projection](math-for-ml/linear-algebra/vectors/vector-projection.md)
-    * [Cosine Similarity](math-for-ml/linear-algebra/vectors/cosine-similarity.md)
-    * [Vector Norms and Orthogonality](math-for-ml/linear-algebra/vectors/vector-norms-and-orthogonality.md)
-    * [Linear combination and span](math-for-ml/linear-algebra/vectors/linear-combination-and-span.md)
-    * [Linear independence and Basis vectors](math-for-ml/linear-algebra/vectors/linear-independence-and-basis-vectors.md)
-  * [Matrices](math-for-ml/linear-algebra/matrices/README.md)
-    * [Matrix Arithmetic](math-for-ml/linear-algebra/matrices/matrix-arithmetic.md)
-    * [Matrix Operations](math-for-ml/linear-algebra/matrices/matrix-operations.md)
-    * [Functions and Linear Transformations](math-for-ml/linear-algebra/matrices/functions-and-linear-transformations.md)
-    * [Matrix types](math-for-ml/linear-algebra/matrices/matrix-types.md)
-  * [Eigendecomposition, Eigenvectors and Eigenvalues](math-for-ml/linear-algebra/eigenvalues-and-eigenvectors.md)
-  * [Principle Component Analysis \(PCA\)](math-for-ml/linear-algebra/principle-component-analysis-pca.md)
-  * [Singular-Value Decomposition\(SVD\)](math-for-ml/linear-algebra/singular-value-decomposition-svd.md)
-  * [Linear Algebra: Deep Learning Book](math-for-ml/linear-algebra/linear-algebra-deep-learning-book.md)
-* [Calculus](math-for-ml/calculus/README.md)
-  * [Functions, Limits, Continuity and Differentiability](math-for-ml/calculus/functions.md)
-  * [Scalar Derivative and Partial Derivatives](math-for-ml/calculus/scalar-derivative.md)
-  * [Gradient](math-for-ml/calculus/gradient.md)
-  * [Matrix Calculus](math-for-ml/calculus/matrix-calculus.md)
-  * [Maxima and Minima using Derivatives](math-for-ml/calculus/maxima-and-minima-of-functions.md)
-  * [Gradient Descent and its types](math-for-ml/calculus/gradient-descent-and-its-types.md)
-* [Statistics and Probability](math-for-ml/probability/README.md)
-  * [Probability Rules and Axioms](math-for-ml/probability/probability-rules-and-axioms.md)
-  * [Types of Events](math-for-ml/probability/types-of-events.md)
-  * [Frequentist vs Bayesian View](math-for-ml/probability/frequentist-vs-bayesian-view.md)
-  * [Random Variables](math-for-ml/probability/random-variables.md)
-  * [MLE, MAP, and Naive Bayes](math-for-ml/probability/mle-map-and-naive-bayes.md)
-  * [Probability Distributions](math-for-ml/probability/probability-distributions.md)
-  * [P-Value and hypothesis test](math-for-ml/probability/p-value-and-hypothesis-test.md)
-* [Miscellaneous](math-for-ml/miscellaneous/README.md)
-  * [LaTeX commands](math-for-ml/miscellaneous/latex-commands.md)
 
 ## Life
 
@@ -93,4 +87,10 @@
     * [Comparing Git Workflow](life/tools/software/comparing-git-workflow.md)
   * [Life Hacks](life/tools/life-hacks/README.md)
     * [DIY Deck Cleaner](life/tools/life-hacks/diy-deck-cleaner.md)
+
+## Knowledge Vault
+
+* [Book](knowledge-vault/book.md)
+* [Media](knowledge-vault/media.md)
+* [Course/Training](knowledge-vault/course-training.md)
 

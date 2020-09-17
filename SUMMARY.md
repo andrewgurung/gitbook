@@ -90,7 +90,8 @@
 
 ## Knowledge Vault
 
-* [Book](knowledge-vault/book.md)
+* [Book](knowledge-vault/book/README.md)
+  * [The Almanack of Naval Ravikant](knowledge-vault/book/the-almanack-of-naval-ravikant.md)
 * [Media](knowledge-vault/media.md)
 * [Course/Training](knowledge-vault/course-training.md)
 

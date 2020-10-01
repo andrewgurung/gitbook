@@ -11,7 +11,7 @@ description: >-
 👨‍💻 Senior Software Engineer @[**NIH**](https://twitter.com/NIH).  
 Previously Programmer Analyst @[**FedEx**](https://twitter.com/FedEx).  
 🎓 MS in Computer Science.  
-Personality Type: [INTJ](https://www.16personalities.com/intj-personality)
+Personality Type: [INTJ-A](https://www.16personalities.com/intj-personality)
 
 Lover of![?](https://abs.twimg.com/emoji/v2/72x72/1f375.png)and \#[**AlwaysLearning**](https://twitter.com/hashtag/AlwaysLearning?src=hash) ![?](https://abs.twimg.com/emoji/v2/72x72/1f4af.png)
 

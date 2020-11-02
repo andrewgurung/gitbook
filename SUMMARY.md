@@ -66,6 +66,7 @@
 * [Philosophy](life/philosophy/README.md)
   * [Aristotle's Defense of Private Property](life/philosophy/aristotles-defense-of-private-property.md)
 * [Self-improvement](life/self-improvement/README.md)
+  * [100 Mental Models](life/self-improvement/100-mental-models.md)
   * [Don't break the chain](life/self-improvement/dont-break-the-chain.md)
   * [Cal Newport's 5 Productivity tips](life/self-improvement/cal-newports-5-productivity-tips.md)
   * [Andrew Ng's advice on deliberate practice](life/self-improvement/andrew-ng-advice-on-deliberate-practice.md)

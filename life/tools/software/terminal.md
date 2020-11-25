@@ -20,3 +20,14 @@ cd ~
 cd mlcourse
 ```
 
+### Mount an external drive on MacOS
+
+Step 1: Run the following command on Terminal
+
+```bash
+diskutil unmountDisk /dev/disk2
+diskutil eject /dev/disk2
+```
+
+Step 2: Unplug and plug the external drive back to the computer.
+
